@@ -1,0 +1,111 @@
+[NbConvertApp] Converting notebook Assignment2_Programming_Group_XX.ipynb to notebook
+C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\zmq\_future.py:718: RuntimeWarning: Proactor event loop does not implement add_reader family of methods required for zmq. Registering an additional selector thread for add_reader support via tornado. Use `asyncio.set_event_loop_policy(WindowsSelectorEventLoopPolicy())` to avoid this warning.
+  self._get_loop()
+[IPKernelApp] WARNING | Kernel is running over TCP without encryption. All communication (including code and outputs) is sent in plain text and is susceptible to eavesdropping. Use IPC transport or launch with kernel manager-provisioned CurveZMQ keys to enable transport encryption.
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_93355d7d3d1d46efb9fbef0176d3b6f4_a541d5175b7a44d594ad8ae4c8affa1c'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_e241d8e60dd8436ebb03cb03d7a71186'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_b66309c0a5fe467988dfcad1b202c146_1cb97cc87dc042e18019bff9f917593c'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_2454d717e4524ad5a5c20a69413eead0'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_1e30bf10c09647eca5165c2ec8442778_b4798049b4cb470ca93a9ed9ae080711'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_9186007e844a440f89a2a46be17151d9'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_b47dc5f594e34c338b7654e005790b99_6e2d6438d26e4339870eca18c32d9271'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_6bb8101da4b84f5aacb9b8928d917ca5'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_5809043628124aa592369b42f606eb3a_177b9d407463440781cea388796a69c6'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_5ad1f9742533453bb5bc67e8697f38c1'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_dbbd1ab956e74bb186f2f93a628597ab_59a9bd3a8112423e973d98434310f03a'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_df360735cf9e4a899ed0ba29f0586e68'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_4af74c10d1d84e22b8bbde64351610ea_fe9a1f7c9dc44774a93dbc95eebb6480'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_09b1711acf564c768532625af7ff6f43'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_ef6347b4453249c7995051f077cead6c_2ed219310f574115bfedd63ac9bde69f'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_c6fdedc892554c66904bf76cc2df6e25'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_a69aaa02f00544a3b37a3dd8bffdadc0_db0578f060c74c0ea51100017b8e79c8'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_4e2d1132e51a4b2bb42ed3eac3c16fa6'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_e9fc10a6264e4370b1ffa0876f8e219a_2dc2a76eabc24b378fa952c5753cc718'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_2ba0549313ba4c38a45c06dadca74eb0'
+Traceback (most recent call last):
+  File "C:\Users\ARC\AppData\Roaming\Python\Python312\site-packages\joblib\externals\loky\backend\resource_tracker.py", line 386, in main
+    del cache[rtype][name]
+        ~~~~~~~~~~~~^^^^^^
+KeyError: 'C:\\Users\\ARC\\AppData\\Local\\Temp\\joblib_memmapping_folder_13580_06d7a4647bdf49fea26af4aee9513588_136f152ad4f443cb855f7343b128b8ed'
+[NbConvertApp] Writing 555655 bytes to Assignment2_Programming_Group_XX.ipynb
+EXIT 0
