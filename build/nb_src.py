@@ -2,7 +2,7 @@
 # # AIML ZG519 – NLP Applications
 # ## Assignment 2 – Programming Assignment: Information Extraction (10 Marks)
 #
-# **File name:** `Assignment2_Programming_Group_<GroupNo>.ipynb`
+# **File name:** `Assignment2_Programming_Group_86.ipynb`
 #
 # Keep every section heading in this template. Each part needs code, executed outputs and a short markdown explanation.
 # Unexecuted or error-producing cells get no credit.
@@ -12,17 +12,16 @@
 #
 # | Field | Value |
 # | --- | --- |
-# | Group number | <GROUP_NO> |
+# | Group number | 86 |
 # | Problem statement (PS1–PS7) | PS4 – Scientific Knowledge Management: Compounds, Discoveries and Scientists |
 # | Dataset | CrossRE – Natural Science domain (`DFKI-SLT/cross_re`, config `science`) |
 #
 # | # | Member name | BITS ID | Contribution |
 # | --- | --- | --- | --- |
-# | 1 | <NAME_1> | <BITS_ID_1> | <CONTRIBUTION_1> |
-# | 2 | <NAME_2> | <BITS_ID_2> | <CONTRIBUTION_2> |
-# | 3 | <NAME_3> | <BITS_ID_3> | <CONTRIBUTION_3> |
-# | 4 | <NAME_4> | <BITS_ID_4> | <CONTRIBUTION_4> |
-# | 5 | <NAME_5> | <BITS_ID_5> | <CONTRIBUTION_5> |
+# | 1 | Prajwal Shetty K P | 2025AE05434 | Part A – data loading, span→BIO conversion, EDA; Part D – SciBERT fine-tuning (sub-token alignment); notebook integration |
+# | 2 | Neha Yadav | 2025AE05463 | Part B – CRF features, tuning and ablation; Part C – BiLSTM-CRF (GloVe + char-CNN) |
+# | 3 | Poornima Prakash Patil | 2025AE05411 | Part E – LLM zero-/few-shot NER (prompts, JSON parsing, CSV log); Part F – relation extraction |
+# | 4 | Narumalla Pavan Kumar | 2025AE05457 | Part G – model comparison, error analysis and reflection; Part 2 Situated Learning report |
 
 # %% [markdown]
 # ## Problem statement and objective

@@ -2,7 +2,7 @@
 Every number below was copied from the printed outputs of the executed notebook."""
 import json
 
-NB = "Assignment2_Programming_Group_XX.ipynb"
+NB = "Assignment2_Programming_Group_86.ipynb"
 
 NOTES = {}
 

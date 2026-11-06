@@ -1,4 +1,4 @@
-"""Generate Assignment2_SituatedLearning_Group_XX.pdf (Part 2, 5 marks).
+"""Generate Assignment2_SituatedLearning_Group_86.pdf (Part 2, 5 marks).
 Evidence numbers are read from the EXECUTED notebook so they match it exactly.
 usage: python build/make_part2_pdf.py"""
 import json, re, html
@@ -10,8 +10,8 @@ from reportlab.lib.units import cm
 from reportlab.platypus import (SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, KeepTogether)
 from reportlab.graphics.shapes import Drawing, Rect, String, Line, Polygon
 
-NB = "Assignment2_Programming_Group_XX.ipynb"
-OUT = "Assignment2_SituatedLearning_Group_XX.pdf"
+NB = "Assignment2_Programming_Group_86.ipynb"
+OUT = "Assignment2_SituatedLearning_Group_86.pdf"
 
 # ---------- pull evidence from the executed notebook ----------
 nb = json.load(open(NB, encoding="utf-8"))
@@ -78,11 +78,19 @@ def arch_diagram():
 story = []
 story += [P("Assignment 2 – Part 2: Situated Learning", H1),
           P("AIML ZG519 – NLP Applications &nbsp;|&nbsp; Selected topic: <b>Information Extraction</b> "
-            "&nbsp;|&nbsp; Group &lt;GROUP_NO&gt;", B)]
+            "&nbsp;|&nbsp; Group 86", B)]
 
+MEMBERS = [  # (name, BITS ID, contribution)
+    ("Prajwal Shetty K P", "2025AE05434", "Part A data prep &amp; EDA; Part D SciBERT fine-tuning; notebook integration"),
+    ("Neha Yadav", "2025AE05463", "Part B CRF; Part C BiLSTM-CRF"),
+    ("Poornima Prakash Patil", "2025AE05411", "Part E LLM NER; Part F relation extraction"),
+    ("Narumalla Pavan Kumar", "2025AE05457", "Part G comparison &amp; error analysis; Part 2 Situated Learning report"),
+]
 story += [P("Student details", H2), field_table([
-    ("Team member names", "&lt;NAME_1&gt;, &lt;NAME_2&gt;, &lt;NAME_3&gt;, &lt;NAME_4&gt;, &lt;NAME_5&gt;"),
-    ("BITS email id", "&lt;id1&gt;@wilp.bits-pilani.ac.in, ... (one per member)"),
+    ("Group number", "86"),
+    ("Team member names", "<br/>".join(f"{i}. {n} ({b})" for i, (n, b, _) in enumerate(MEMBERS, 1))),
+    ("BITS email id", "<br/>".join(f"{b.lower()}@wilp.bits-pilani.ac.in" for _, b, _ in MEMBERS)),
+    ("Task allocation", "<br/>".join(f"<b>{n}:</b> {c}" for n, _, c in MEMBERS)),
     ("Industry / Domain", "Scientific publishing and R&amp;D (chemicals / materials / life-science research)"),
     ("Organisation type", "R&amp;D knowledge-management team of a science-based manufacturer or publisher"),
 ])]
