@@ -142,11 +142,14 @@ story += [Spacer(1, 4), arch_diagram()]
 
 rows = [["Model (Part 1 prototype)", "P", "R", "F1 (100-sent. sample)", "F1 (full test)", "Inference ms/sent."]]
 for k, (p, r, f, ff, tt, inf, pf) in cmp.items():
-    rows.append([k, p, r, f, ff if ff != "NaN" else "-", f"{float(inf):.1f}"])
+    rows.append([k, p, r, f, ff if ff != "NaN" else "n/a *", f"{float(inf):.1f}"])
 t = Table(rows, colWidths=[4.6 * cm, 1.6 * cm, 1.6 * cm, 3.2 * cm, 2.6 * cm, 3.2 * cm])
 t.setStyle(TableStyle([("GRID", (0, 0), (-1, -1), 0.4, colors.grey), ("FONTSIZE", (0, 0), (-1, -1), 8),
                        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#1f3b6f")), ("TEXTCOLOR", (0, 0), (-1, 0), colors.white)]))
 story += [Spacer(1, 4), P("<b>Evidence 1 – NER results (strict entity-level, seqeval) on CrossRE-science test data:</b>", SM), t,
+          P("* The LLM was evaluated only on the shared 100-sentence test sample (about 8–11 s per sentence on CPU "
+            "makes the full 400-sentence test impractical), so it has no full-test F1. Compare all five models on the "
+            "100-sentence sample column.", SM),
           P(f"<b>Evidence 2 – relation extraction (gold entities, 7 classes):</b> logistic-regression macro-F1 = {lr_macro:.3f}; "
             f"fine-tuned SciBERT with typed entity markers macro-F1 = {bre_macro:.3f}.", SM),
           P("<b>Evidence 3 – representative input/output (few-shot LLM, raw response saved in the CSV):</b>", SM),
